@@ -86,7 +86,7 @@ h1 { font-size: 2.5em; margin-bottom: 10px; }
 <body>
 
 <audio id="musica" loop>
-    <source src="musica_mp3" type="audio/mp3">
+    <source src="musica.mp3" type="audio/mpeg">
 </audio>
 
 <section class="visible">
@@ -108,12 +108,23 @@ h1 { font-size: 2.5em; margin-bottom: 10px; }
 <section>
     <h2>unas cuantas fotos y videos de este añito juntos </h2>
     <div class="gallery">
-        <img src="img_7022">
-        <img src="img_7281">
-        <img src="img_7822”>
-        <img src="img_9792">
-        <img src="img_8699”>
-    </div>
+      <div class="gallery">
+    <img src="A.jpg">
+    <img src="B.jpg">
+    <img src="C.jpg">
+    <img src="D.jpg">
+    <img src="E.jpg">
+    <img src="F.jpg">
+    <img src="G.jpg">
+    <img src="H.jpg">
+    <img src="I.jpg">
+    <img src="J.jpg">
+    <img src="K.jpg">
+    <img src="L.jpg">
+    <img src="M.jpg">
+    <img src="N.jpg">
+    <img src="O.jpg">
+</div>
 </section>
 
 <section id="carta-amor">
@@ -156,10 +167,9 @@ No tienes que cargar todo tú sola porque estoy contigo, hoy, mañana ,pasado o 
 
 <script>
 function iniciarTodo() {
-    
-    const musica = document.getElementById("miMusica");
-    musica.play();
-    
+    const musica = document.getElementById("musica");
+    mhsica.play();
+
     document.getElementById("historia").scrollIntoView({ behavior: "smooth" });
 }
 
