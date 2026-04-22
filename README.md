@@ -168,7 +168,7 @@ No tienes que cargar todo tú sola porque estoy contigo, hoy, mañana ,pasado o 
 <script>
 function iniciarTodo() {
     const musica = document.getElementById("musica");
-    mhsica.play();
+    musica.play();
 
     document.getElementById("historia").scrollIntoView({ behavior: "smooth" });
 }
