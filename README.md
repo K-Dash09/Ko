@@ -168,7 +168,7 @@ No tienes que cargar todo tú sola porque estoy contigo, hoy, mañana ,pasado o 
 <script>
 function iniciarTodo() {
     const musica = document.getElementById("musica");
-    mhsica.play();
+    "musica.play();
 
     document.getElementById("historia").scrollIntoView({ behavior: "smooth" });
 }
@@ -194,7 +194,6 @@ function actualizarContador() {
     const h = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     const m = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
     const s = Math.floor((diff % (1000 * 60)) / 1000);
-
     document.getElementById("contador").innerHTML = 
         `${d} días, ${h}h, ${m}m y ${s}s juntos ❤️`;
 }
