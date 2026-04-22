@@ -1,5 +1,4 @@
-[texto.txt](https://github.com/user-attachments/files/26987187/texto.txt)
-<!DOCTYPE html>
+(https://github.com/user-attachments/files/26987187/texto.txt)
 <html lang="es">
 <head>
 <meta charset="UTF-8">
@@ -87,7 +86,7 @@ h1 { font-size: 2.5em; margin-bottom: 10px; }
 <body>
 
 <audio id="musica" loop>
-    <source src="Cp.mp3" type="audio/mp3">
+    <source src="musica_mp3" type="audio/mp3">
 </audio>
 
 <section class="visible">
@@ -97,7 +96,7 @@ h1 { font-size: 2.5em; margin-bottom: 10px; }
 </section>
 
 <section id="historia">
-    <h2>𝙲𝚘𝚖𝚘 𝚕𝚘 𝚗𝚞𝚎𝚜𝚝𝚛𝚘 𝚎𝚖𝚙𝚎𝚣ó</h2>
+    <h2>como lo nuestro empezó</h2>
     <p>Ese día donde nos cruzamos por primera vez me dejaste abobado con tus ojazos. No me cabía la idea de que nuestros caminos se fueran a cruzar una segunda vez, pero aquí estamos, demostrando que algunas historias están escritas para no terminarse nunca.</p>
 </section>
 
@@ -109,11 +108,11 @@ h1 { font-size: 2.5em; margin-bottom: 10px; }
 <section>
     <h2>unas cuantas fotos y videos de este añito juntos </h2>
     <div class="gallery">
-        <img src="IMG_7022">
-        <img src="IMG_7281">
-        <img src="IMG_7822”>
-        <img src="IMG_9792">
-        <img src="IMG_8699”>
+        <img src="img_7022">
+        <img src="img_7281">
+        <img src="img_7822”>
+        <img src="img_9792">
+        <img src="img_8699”>
     </div>
 </section>
 
@@ -140,7 +139,6 @@ En los días buenos voy a celebrar contigo, y en los días difíciles voy a qued
 No tienes que cargar todo tú sola porque estoy contigo, hoy, mañana ,pasado o hasta cuando no nos entendamos demasiado .💗💗 </p>
     <button class="btn" onclick="mostrarSorpresa()">No presiones esto</button>
     <p id="sorpresa" class="hidden">Sabía que lo ibas a hacer y por eso te voy a dar jaksjajaja te amo muchísimo pero si te voy a dar 😏😘</p>
-</section>
 
 <section id="ahora si un ultimo mensajito ">
     <h2>Un último detalle❤️</h2>
