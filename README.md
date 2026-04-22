@@ -1,4 +1,4 @@
-(https://github.com/user-attachments/files/26987187/texto.txt)
+
 <html lang="es">
 <head>
 <meta charset="UTF-8">
@@ -156,15 +156,13 @@ No tienes que cargar todo tú sola porque estoy contigo, hoy, mañana ,pasado o 
 
 <script>
 function iniciarTodo() {
-    // Activa la canción de DannyLux
+    
     const musica = document.getElementById("miMusica");
     musica.play();
     
-    // Scroll a la siguiente parte
     document.getElementById("historia").scrollIntoView({ behavior: "smooth" });
 }
 
-// Animaciones al hacer scroll
 const sections = document.querySelectorAll("section");
 window.addEventListener("scroll", () => {
     sections.forEach(sec => {
@@ -175,7 +173,7 @@ window.addEventListener("scroll", () => {
     });
 });
 
-// Contador (Días, horas, minutos, segundos)
+
 const fechaInicio = new Date("2025-04-24T00:00:00");
 
 function actualizarContador() {
@@ -197,12 +195,13 @@ function mostrarSorpresa() {
     document.getElementById("sorpresa").classList.remove("hidden");
 }
 
-// Lluvia mágica mixta (Corazones, Estrellas y Flores)
+
 setInterval(() => {
     const gota = document.createElement("div");
     gota.classList.add("corazon"); 
+
     
-    // Aquí es donde añadimos la variedad que te gustó
+   
     const variedad = ["❤️", "✨", "🌸", "💖", "⭐", "🌷", "💕", "✨"];
     gota.innerHTML = variedad[Math.floor(Math.random() * variedad.length)];
     
@@ -210,7 +209,7 @@ setInterval(() => {
     gota.style.fontSize = (Math.random() * 20 + 15) + "px";
     gota.style.opacity = Math.random() * 0.8 + 0.2;
     
-    // Esto hace que caigan a diferentes ritmos
+    
     gota.style.animationDuration = (Math.random() * 3 + 4) + "s";
     
     document.body.appendChild(gota);
